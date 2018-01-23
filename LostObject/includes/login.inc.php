@@ -48,6 +48,7 @@
 		global $user;
 		global $dbpw;
 		global $db;
+		global $conn;
         $conn = new mysqli($host, $user, $dbpw, $db);
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);

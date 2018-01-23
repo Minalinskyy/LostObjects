@@ -4,7 +4,7 @@
 
     echo "<h3>The list of found objects</h3>";
 
-    $sql = "SELECT * FROM objectFound_ojf INNER JOIN object_obj ON objectFound_ojf.ojf_obj_id = object_obj.obj_id";
+    $sql = "SELECT * FROM objectfound_ojf INNER JOIN object_obj ON objectfound_ojf.ojf_obj_id = object_obj.obj_id";
     $result = $conn->query($sql);
 	$conn->close();
     

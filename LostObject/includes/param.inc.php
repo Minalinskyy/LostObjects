@@ -3,8 +3,8 @@
 $lifeTimeInMin = 15;
 
 $host="localhost";
-$user="root";
-$dbpw="";
+$user="admin";
+$dbpw="574638690";
 $db="lost_object";
 
 ?>
