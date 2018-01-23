@@ -62,7 +62,7 @@ function print_objet_obj(){
 function print_objectDeclared_ojd(){
     global $conn;
     echo "<h1>\n\n\nobjectDeclared_ojd:</h1>";
-    $sql = "SELECT * FROM objectDeclared_ojd INNER JOIN object_obj ON objectDeclared_ojd.ojd_obj_id = object_obj.obj_id";
+    $sql = "SELECT * FROM objectdeclared_ojd INNER JOIN object_obj ON objectDeclared_ojd.ojd_obj_id = object_obj.obj_id";
     $result = $conn->query($sql);
         
     if ($result->num_rows > 0) {

@@ -4,7 +4,7 @@
 
     echo "<h3>The list of the declared objects</h3>";
 
-    $sql = "SELECT * FROM objectDeclared_ojd INNER JOIN object_obj ON objectDeclared_ojd.ojd_obj_id = object_obj.obj_id";
+    $sql = "SELECT * FROM objectdeclared_ojd INNER JOIN object_obj ON objectdeclared_ojd.ojd_obj_id = object_obj.obj_id";
     $result = $conn->query($sql);
 	$conn->close();
     
