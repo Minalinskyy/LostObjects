@@ -25,4 +25,4 @@ And open your sql manage page, import the sql file, the database and pre-inserte
 
 That's all. Just have a try if this is interesting for you.
 
-PS： Here is a link which you can try the system:  http://http://lostobjects.minalinsky.info/  The username and password are same as exemple.
+PS： Here is a link which you can try the system:  http://lostobjects.minalinsky.info/  The username and password are same as exemple.
