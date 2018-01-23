@@ -24,3 +24,5 @@ Don't forget to change the parameters in /includes/param.inc.php into your datab
 And open your sql manage page, import the sql file, the database and pre-inserted data will be done automatically.
 
 That's all. Just have a try if this is interesting for you.
+
+PS： Here is a link which you can try the system:  http://http://lostobjects.minalinsky.info/  The username and password are same as exemple.
