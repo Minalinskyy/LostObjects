@@ -1,0 +1,43 @@
+#hint {
+    color: red;
+    display: block;
+}
+
+label {
+    display: block;
+    padding: 3px;
+    margin: 10px;
+    text-align: left;
+}
+
+input {
+    display: block;
+    padding: 3px;
+    margin: 10px;
+    width: 15em;
+    text-align: left;
+}
+
+.button {
+    display: block;
+    padding: 3px;
+    vertical-align: bottom;
+    margin-bottom: .5em;
+}
+
+#obj_description {
+    height: 15em;
+    width: 600px;
+    display: block;
+    padding: 3px;
+    margin: 10px;
+}
+
+section {
+    display: block;
+    padding: 3px;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    vertical-align: text-top;
+}

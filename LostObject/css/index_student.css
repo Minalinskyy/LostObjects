@@ -1,0 +1,48 @@
+#buttons {
+    text-align: justify;
+}
+
+#buttons:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+#declareLink {
+    display: inline-block;
+    margin-top: 0.321em;
+}
+
+#disconnectLink {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+
+/*#buttons {
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.photo {
+    max-height: 10em;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.id,
+.abandon,
+.returned {
+    display: none;
+}
+
+.date {
+    text-align: center;
+    width: 8em;
+}
